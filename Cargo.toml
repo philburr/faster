@@ -13,8 +13,8 @@ repository = "https://github.com/AdamNiederer/faster"
 readme = "README.org"
 
 [dependencies]
-vektor = "0.2.1"
-packed_simd = "0.3"
+vektor = { git = "https://github.com/philburr/vektor" }
+packed_simd = { version = "0.3.4", package = "packed_simd_2" }
 
 [features]
 default = ["std"]
